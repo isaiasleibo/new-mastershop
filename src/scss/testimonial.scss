@@ -1,0 +1,96 @@
+#testimonial {
+    width: 100%;
+    background-color: #8C30F5;
+    color: white;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    #cardsSubContainer {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 40px 0;
+
+        h2 {
+            margin-bottom: 20px;
+            margin-left: 22px;
+            font-size: 32px;
+        }
+
+        #cardsContainer {
+            display: flex;
+            width: fit-content;
+
+            .cardContainer {
+                height: fit-content;
+
+                .card {
+                    background-color: #FFFFFF;
+                    color: #18191F;
+                    width: 500px;
+                    margin: 0 20px;
+                    height: 200px;
+                    border-radius: 10px;
+                    position: relative;
+                    text-align: center;
+
+                    h3 {
+                        padding-top: 28px;
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        margin: 0 20px;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+
+                    .triangle {
+                        background-color: rgb(255, 255, 255);
+                        width: 20px;
+                        height: 20px;
+                        rotate: 45deg;
+                        position: absolute;
+                        bottom: -8px;
+                        right: 0;
+                        left: 0;
+                        margin: auto;
+                        border-radius: 3px;
+                    }
+                }
+
+                .perfil {
+                    display: flex;
+                    width: fit-content;
+                    margin: 0 auto;
+                    margin-top: 20px;
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+
+                    .perfilInfo {
+                        height: fit-content;
+                        margin: auto 0;
+
+                        h4 {
+                            font-size: 14px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+#testimonial {
+  width: 100%;
+  background-color: #8C30F5;
+  color: white;
+}
+#testimonial h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+#testimonial #cardsSubContainer {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+#testimonial #cardsSubContainer h2 {
+  margin-bottom: 20px;
+  margin-left: 22px;
+  font-size: 32px;
+}
+#testimonial #cardsSubContainer #cardsContainer {
+  display: flex;
+  width: fit-content;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer {
+  height: fit-content;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .card {
+  background-color: #FFFFFF;
+  color: #18191F;
+  width: 500px;
+  margin: 0 20px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .card h3 {
+  padding-top: 28px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .card p {
+  font-size: 14px;
+  margin: 0 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .card .triangle {
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  rotate: 45deg;
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 3px;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .perfil {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .perfil img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .perfil .perfilInfo {
+  height: fit-content;
+  margin: auto 0;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .perfil .perfilInfo h4 {
+  font-size: 14px;
+}
+#testimonial #cardsSubContainer #cardsContainer .cardContainer .perfil .perfilInfo p {
+  font-size: 12px;
+  font-weight: 300;
+}

@@ -1,0 +1,66 @@
+header {
+  height: 60px;
+  background-color: #0B0D17;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+header #leftPart {
+  display: flex;
+}
+header #leftPart #logo {
+  height: fit-content;
+  margin: auto 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+header #leftPart #logo img {
+  height: 30px;
+  margin-top: 5px;
+}
+header #leftPart #left-options {
+  display: flex;
+  margin-left: 15px;
+}
+header #leftPart #left-options .headerItem {
+  margin: auto 12px;
+  height: fit-content;
+  cursor: pointer;
+  user-select: none;
+}
+header #leftPart #left-options .headerItem i {
+  margin-left: 3px;
+  font-size: 10px;
+}
+header #leftPart #left-options .headerItem p {
+  font-size: 12px;
+}
+header #rightPart {
+  position: absolute;
+  right: 10px;
+}
+header #rightPart #login-buttons .ExampleButton, header #rightPart #login-buttons #signUp, header #rightPart #login-buttons #login {
+  all: unset;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+header #rightPart #login-buttons .ExampleButton p, header #rightPart #login-buttons #signUp p, header #rightPart #login-buttons #login p {
+  width: fit-content;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 600;
+  user-select: none;
+}
+header #rightPart #login-buttons #login {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-right: 10px;
+}
+header #rightPart #login-buttons #signUp {
+  background-color: #9B2020;
+  color: #FFFFFF;
+}

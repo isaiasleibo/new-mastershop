@@ -1,0 +1,59 @@
+#hero {
+  display: grid;
+  grid-template-areas: "1 2";
+  grid-template-columns: 1fr 1fr;
+  margin: 80px auto;
+  width: calc(100% - 20px);
+  max-width: 1160px;
+}
+#hero #hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 40px;
+}
+#hero #hero-main h1 {
+  font-family: "Inter", sans-serif;
+  color: #1C2C40;
+  font-size: 60px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#hero #hero-main p {
+  line-height: 150%;
+}
+#hero #hero-main button {
+  all: unset;
+  width: 120px;
+  height: 40px;
+  background-color: #343434;
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#hero #hero-main button p {
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto;
+  user-select: none;
+}
+#hero #mainImg {
+  width: fit-content;
+  margin: 0 auto;
+}
+#hero #mainImg #mainCircle {
+  width: 500px;
+  height: 500px;
+  background-color: #609FFF;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+#hero #mainImg #mainCircle img {
+  width: 450px;
+  height: 450px;
+  margin-left: 80px;
+  position: relative;
+  user-select: none;
+}

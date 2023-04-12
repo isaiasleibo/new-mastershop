@@ -1,0 +1,86 @@
+header {
+    height: 60px;
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+
+    #leftPart {
+        display: flex;
+
+        #logo {
+            height: fit-content;
+            margin: auto 0;
+            margin-left: 15px;
+            cursor: pointer;
+
+            img {
+                height: 30px;
+                margin-top: 5px;
+            }
+        }
+
+        #left-options {
+            display: flex;
+            margin-left: 15px;
+
+            .headerItem {
+                margin: auto 12px;
+                height: fit-content;
+                cursor: pointer;
+                user-select: none;
+
+                i {
+                    margin-left: 3px;
+                    font-size: 10px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #rightPart {
+        position: absolute;
+        right: 10px;
+
+        #login-buttons {
+
+            // Example Button
+            .ExampleButton {
+                all: unset;
+                cursor: pointer;
+                width: 90px;
+                height: 30px;
+                font-size: 14px;
+                border-radius: 6px;
+
+                p {
+                    width: fit-content;
+                    margin: auto;
+                    font-size: 12px;
+                    font-weight: 600;
+                    user-select: none;
+                }
+            }
+            //
+
+            #login {
+                @extend .ExampleButton;
+                background-color: #FFFFFF;
+                color: #000000;
+                margin-right: 10px
+            }
+
+            #signUp {
+                @extend .ExampleButton;
+                background-color: #9B2020;
+                color: #FFFFFF;
+            }
+
+        }
+    }
+}
