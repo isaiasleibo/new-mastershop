@@ -1,0 +1,31 @@
+#offerContainer {
+  background-color: #00598E;
+  padding: 40px 0;
+}
+#offerContainer #offer {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "1 2";
+  width: fit-content;
+}
+#offerContainer #offer img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  user-select: none;
+}
+#offerContainer #offer #offer-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 60px;
+}
+#offerContainer #offer #offer-text h2 {
+  font-size: 80px;
+}
+#offerContainer #offer #offer-text h3 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 5px;
+}

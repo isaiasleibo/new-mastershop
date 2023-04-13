@@ -1,0 +1,33 @@
+footer {
+  background-color: #0B0D17;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+footer img {
+  height: 35px;
+  user-select: none;
+  cursor: pointer;
+}
+footer p {
+  font-size: 12px;
+}
+footer #socialMedia {
+  display: flex;
+}
+footer #socialMedia .mediaContainer {
+  background-color: #23252E;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer #socialMedia p {
+  user-select: none;
+}

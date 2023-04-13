@@ -1,0 +1,38 @@
+footer {
+    background-color: #0B0D17;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    img {
+        height: 35px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #socialMedia {
+        display: flex;
+
+        .mediaContainer {
+            background-color: #23252E;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        p {
+            user-select: none;
+        }
+    }
+}
