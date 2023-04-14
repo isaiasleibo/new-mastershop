@@ -39,6 +39,10 @@
   margin: 0 auto;
   user-select: none;
 }
+#hero #hero-main button p a {
+  color: white;
+  text-decoration: none;
+}
 #hero #mainImg {
   width: fit-content;
   margin: 0 auto;

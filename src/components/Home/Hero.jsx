@@ -14,7 +14,7 @@ export const Hero = () => {
 
       <div id="mainImg">
         <div id='mainCircle'>
-          <img src={require('../../img/pc.png')} alt="PC Gamer" />
+          <img src={require('../../img/pc.webp')} alt="PC Gamer" />
         </div>
       </div>
 

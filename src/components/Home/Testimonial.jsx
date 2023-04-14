@@ -16,7 +16,7 @@ export const Testimonial = () => {
                         </div>
 
                         <div className="perfil">
-                            <img src={require('../../img/claraGonzales.jpg')} alt="Calara Gonzales" />
+                            <img src={require('../../img/claraGonzales.webp')} alt="Calara Gonzales" />
                             <div className="perfilInfo">
                                 <h4>Clara Gonzales</h4>
                                 <p>Córdoba, Córdoba, Argentina</p>
@@ -31,7 +31,7 @@ export const Testimonial = () => {
                         </div>
 
                         <div className="perfil">
-                            <img src={require('../../img/juanCruzGarcia.jpg')} alt="Juan Cruz García" />
+                            <img src={require('../../img/juanCruzGarcia.webp')} alt="Juan Cruz García" />
                             <div className="perfilInfo">
                                 <h4>Juan cruz García</h4>
                                 <p>Rosario, Santa Fé, Argentina</p>

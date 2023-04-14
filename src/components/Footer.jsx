@@ -7,8 +7,7 @@ export const Footer = () => {
 
   return (
     <footer>
-      <p>&copy; MasterShop {year}</p>
-      <img src={require('../img/pageLogo.png')} alt="MasterShop" />
+      <p>&copy; MasterShop {year}</p><img src={require('../img/pageLogo.webp')} alt="MasterShop" />
       <div id="socialMedia">
         <div className="mediaContainer">
           <p><i className="fa-brands fa-instagram"></i></p>

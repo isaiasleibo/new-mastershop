@@ -17,6 +17,7 @@ header #leftPart #logo {
 }
 header #leftPart #logo img {
   height: 30px;
+  width: 50px;
   margin-top: 5px;
   user-select: none;
 }
@@ -36,6 +37,10 @@ header #leftPart #left-options .headerItem i {
 }
 header #leftPart #left-options .headerItem p {
   font-size: 12px;
+}
+header #leftPart #left-options .headerItem p a {
+  color: white;
+  text-decoration: none;
 }
 header #rightPart {
   position: absolute;

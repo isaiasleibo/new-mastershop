@@ -17,6 +17,7 @@ header {
 
             img {
                 height: 30px;
+                width: 50px;
                 margin-top: 5px;
                 user-select: none;
             }
@@ -39,6 +40,11 @@ header {
 
                 p {
                     font-size: 12px;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
                 }
             }
         }

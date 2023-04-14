@@ -6,7 +6,7 @@ export const Header = () => {
         <header>
             <div id="leftPart">
                 <div id="logo">
-                    <img src={require('../img/pageLogo.png')} alt="MasterShop" />
+                    <img src={require('../img/pageLogo.webp')} alt="MasterShop" />
                 </div>
                 <div id="left-options">
                     <div className="headerItem">
