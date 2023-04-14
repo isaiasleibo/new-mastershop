@@ -96,3 +96,36 @@
         }
     }
 }
+
+#testimonial {
+    @media screen and (max-width: 1100px) {
+        #cardsContainer {
+            flex-direction: column;
+
+            .cardContainer {
+                margin-bottom: 20px;
+
+                .card {
+                    height: auto !important;
+                    min-height: 200px !important;
+
+                    p {
+                        padding-bottom: 16px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 570px) {
+        h2 {
+            margin: 0 auto !important;
+            margin-bottom: 22px !important;
+        }
+
+        .card {
+            width: calc(100vw - 25px) !important;
+            margin: 0 !important;
+        }
+    }
+}

@@ -2,9 +2,12 @@ import React from 'react';
 import '../css/footer.css';
 
 export const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer>
-      <p>&copy; 2023 MasterShop - isaiasleibo</p>
+      <p>&copy; MasterShop {year}</p>
       <img src={require('../img/pageLogo.png')} alt="MasterShop" />
       <div id="socialMedia">
         <div className="mediaContainer">

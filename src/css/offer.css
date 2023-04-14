@@ -12,7 +12,7 @@
   width: 450px;
   height: 450px;
   object-fit: cover;
-  user-select: none;
+  margin: 0 auto;
 }
 #offerContainer #offer #offer-text {
   color: white;
@@ -23,9 +23,42 @@
 }
 #offerContainer #offer #offer-text h2 {
   font-size: 80px;
+  animation: background 2s infinite;
+  padding: 0 5px;
+  margin-top: 3px;
 }
 #offerContainer #offer #offer-text h3 {
   font-size: 30px;
   font-weight: 200;
   margin-left: 5px;
+}
+
+@keyframes background {
+  0% {
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  100% {
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+}
+@media screen and (max-width: 1000px) {
+  #offer {
+    grid-template-areas: "1" "2" !important;
+  }
+  #offer #offer-text {
+    align-items: center !important;
+    margin: 0 !important;
+  }
+  #offer img {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #offer img {
+    width: 350px !important;
+    height: 350px !important;
+  }
 }

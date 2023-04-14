@@ -85,3 +85,11 @@ header {
         }
     }
 }
+
+header {
+    @media screen and (max-width: 650px) {
+        .headerItem {
+            display: none;
+        }
+    }
+}

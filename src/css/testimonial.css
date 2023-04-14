@@ -82,3 +82,29 @@
   font-size: 12px;
   font-weight: 300;
 }
+
+@media screen and (max-width: 1100px) {
+  #testimonial #cardsContainer {
+    flex-direction: column;
+  }
+  #testimonial #cardsContainer .cardContainer {
+    margin-bottom: 20px;
+  }
+  #testimonial #cardsContainer .cardContainer .card {
+    height: auto !important;
+    min-height: 200px !important;
+  }
+  #testimonial #cardsContainer .cardContainer .card p {
+    padding-bottom: 16px !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  #testimonial h2 {
+    margin: 0 auto !important;
+    margin-bottom: 22px !important;
+  }
+  #testimonial .card {
+    width: calc(100vw - 25px) !important;
+    margin: 0 !important;
+  }
+}

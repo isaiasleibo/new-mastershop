@@ -12,7 +12,7 @@
             width: 450px;
             height: 450px;
             object-fit: cover;
-            user-select: none;
+            margin: 0 auto;
         }
 
         #offer-text {
@@ -24,6 +24,9 @@
 
             h2 {
                 font-size: 80px;
+                animation: background 2s infinite;
+                padding: 0 5px;
+                margin-top: 3px;
             }
 
             h3 {
@@ -31,6 +34,42 @@
                 font-weight: 200;
                 margin-left: 5px;
             }
+        }
+    }
+}
+
+@keyframes background {
+    0% {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    50% {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+}
+
+#offer {
+    @media screen and (max-width: 1000px) {
+        grid-template-areas: "1" "2" !important;
+
+        #offer-text {
+            align-items: center !important;
+            margin: 0 !important;
+        }
+
+        img {
+            margin-top: 10px !important;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        img {
+            width: 350px !important; 
+            height: 350px !important;
         }
     }
 }

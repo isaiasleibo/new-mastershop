@@ -65,3 +65,9 @@ header #rightPart #login-buttons #signUp {
   background-color: #9B2020;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 650px) {
+  header .headerItem {
+    display: none;
+  }
+}
