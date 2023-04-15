@@ -118,6 +118,7 @@
   }
   #carouselProcesadoresContainer .item {
     margin: 0 5px !important;
+    height: 230px !important;
   }
   #carouselProcesadoresContainer .item img {
     width: 90px !important;

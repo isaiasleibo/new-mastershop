@@ -1,7 +1,7 @@
-#carouselProcesadoresContainer {
-    width: fit-content;
-    margin: 20px auto;
+#carouselNotebooksContainer {
+    color: white;
     width: 1140px;
+    margin: 20px auto;
 
     h2 {
         color: #1C2C40;
@@ -10,13 +10,12 @@
         margin-bottom: 5px;
     }
 
-    #carouselProcesadores {
-        color: white;
-        padding: 10px 0;
+    #carosuelNotebooks {
         background: linear-gradient(#ccc, #fff);
-        box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-        border-radius: 4px;
         position: relative;
+        padding: 10px 0;
+        box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
 
         .owl-dots {
             display: none;
@@ -24,19 +23,30 @@
 
         .item {
             background-color: #252525;
-            height: 250px;
+            border-radius: 12px;
             margin: 0 10px;
             display: grid;
             grid-template-areas: "1" "2" "3" "4";
             text-align: center;
-            border-radius: 12px;
+            height: 250px;
 
             img {
                 width: 100px;
                 height: 100px;
-                object-fit: contain;
                 margin: 0 auto;
                 margin-top: 10px;
+                object-fit: contain;
+            }
+
+            h3 {
+                margin-top: 5px;
+                font-size: 24px;
+            }
+
+            h4 {
+                margin: 0 10px;
+                font-size: 16px;
+                font-weight: 400;
             }
 
             button {
@@ -59,17 +69,6 @@
 
             button:active {
                 scale: 1;
-            }
-
-            h3 {
-                margin-top: 5px;
-                font-size: 24px;
-            }
-
-            h4 {
-                margin: 0 10px;
-                font-size: 16px;
-                font-weight: 400;
             }
         }
 
@@ -108,17 +107,13 @@
     }
 }
 
-#carouselProcesadoresContainer {
+#carouselNotebooksContainer {
     @media screen and (max-width: 1240px) {
-        width: 977px;
-    }
-
-    @media screen and (max-width: 1090px) {
-        width: 814px;
+        width: 760px !important;
     }
 
     @media screen and (max-width: 900px) {
-        width: 100vw;
+        width: 100vw !important;
 
         .owl-prev, .owl-next {
             display: none;
@@ -126,48 +121,6 @@
     }
 
     @media screen and (max-width: 445px) {
-        margin: 20px 5px;
-        width: calc(100vw - 10px);
-
-        .item {
-            margin: 0 5px !important;
-            height: 230px !important;
-
-            img {
-                width: 90px !important;
-                height: 90px !important;
-            }
-
-            h3 {
-                font-size: 20px !important;
-            }
-
-            h4 {
-                font-size: 14px !important;
-            }
-        }
-    }
-
-    @media screen and (max-width: 390px) {
-        .item {
-            height: fit-content  !important;
-
-            img {
-                width: 80px !important;
-                height: 80px !important;
-            }
-
-            h3 {
-                font-size: 18px !important;
-                height: fit-content;
-                margin-top: 10px !important;
-            }
-
-            h4 {
-                font-size: 12px !important;
-                height: fit-content;
-                margin-top: 10px !important;
-            }
-        }
+        width: calc(100vw - 10px) !important;
     }
 }

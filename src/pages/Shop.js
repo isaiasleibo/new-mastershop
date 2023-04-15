@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer';
 
 import { CarouselProcesadores } from '../components/Shop/CarouselProcesadores';
 import { DecorativeCarousel } from '../components/Shop/DecorativeCarousel';
+import { CarouselNotebooks } from '../components/Shop/CarouselNotebooks';
 
 export const Shop = () => {
   return (
@@ -11,6 +12,7 @@ export const Shop = () => {
       <Header />
         <DecorativeCarousel />
         <CarouselProcesadores />
+        <CarouselNotebooks />
       <Footer />
     </>
   )
