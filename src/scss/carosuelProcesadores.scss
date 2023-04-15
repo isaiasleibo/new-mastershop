@@ -1,6 +1,7 @@
 #carouselProcesadoresContainer {
     width: fit-content;
     margin: 20px auto;
+    width: 1140px;
 
     h2 {
         color: #1C2C40;
@@ -12,7 +13,6 @@
     #carouselProcesadores {
         color: white;
         padding: 10px 0;
-        width: 1140px;
         background: linear-gradient(#ccc, #fff);
         box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3);
         border-radius: 4px;
@@ -104,6 +104,69 @@
             @extend .owl-prev;
             right: -30px;
             left: auto;
+        }
+    }
+}
+
+#carouselProcesadoresContainer {
+    @media screen and (max-width: 1240px) {
+        width: 977px;
+    }
+
+    @media screen and (max-width: 1090px) {
+        width: 814px;
+    }
+
+    @media screen and (max-width: 900px) {
+        width: 100vw;
+
+        .owl-prev, .owl-next {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 445px) {
+        margin: 20px 5px;
+        width: calc(100vw - 10px);
+
+        .item {
+            margin: 0 5px !important;
+
+            img {
+                width: 90px !important;
+                height: 90px !important;
+            }
+
+            h3 {
+                font-size: 20px !important;
+            }
+
+            h4 {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        .item {
+            height: fit-content  !important;
+
+            img {
+                width: 80px !important;
+                height: 80px !important;
+            }
+
+            h3 {
+                font-size: 18px !important;
+                height: fit-content;
+                margin-top: 10px !important;
+            }
+
+            h4 {
+                font-size: 12px !important;
+                height: fit-content;
+                margin-top: 10px !important;
+            }
         }
     }
 }

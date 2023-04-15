@@ -1,6 +1,7 @@
 #carouselProcesadoresContainer {
   width: fit-content;
   margin: 20px auto;
+  width: 1140px;
 }
 #carouselProcesadoresContainer h2 {
   color: #1C2C40;
@@ -11,7 +12,6 @@
 #carouselProcesadoresContainer #carouselProcesadores {
   color: white;
   padding: 10px 0;
-  width: 1140px;
   background: linear-gradient(#ccc, #fff);
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
@@ -91,4 +91,61 @@
 #carouselProcesadoresContainer #carouselProcesadores .owl-next {
   right: -30px;
   left: auto;
+}
+
+@media screen and (max-width: 1240px) {
+  #carouselProcesadoresContainer {
+    width: 977px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  #carouselProcesadoresContainer {
+    width: 814px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #carouselProcesadoresContainer {
+    width: 100vw;
+  }
+  #carouselProcesadoresContainer .owl-prev, #carouselProcesadoresContainer #carouselProcesadores .owl-next, #carouselProcesadoresContainer .owl-next {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  #carouselProcesadoresContainer {
+    margin: 20px 5px;
+    width: calc(100vw - 10px);
+  }
+  #carouselProcesadoresContainer .item {
+    margin: 0 5px !important;
+  }
+  #carouselProcesadoresContainer .item img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  #carouselProcesadoresContainer .item h3 {
+    font-size: 20px !important;
+  }
+  #carouselProcesadoresContainer .item h4 {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  #carouselProcesadoresContainer .item {
+    height: fit-content !important;
+  }
+  #carouselProcesadoresContainer .item img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  #carouselProcesadoresContainer .item h3 {
+    font-size: 18px !important;
+    height: fit-content;
+    margin-top: 10px !important;
+  }
+  #carouselProcesadoresContainer .item h4 {
+    font-size: 12px !important;
+    height: fit-content;
+    margin-top: 10px !important;
+  }
 }

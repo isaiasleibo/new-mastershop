@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Items from '../../json/items.json';
 import '../../css/carosuelProcesadores.css';
-import { useRef } from 'react';
 
 // Separando Items
 const items = [];
@@ -15,9 +14,36 @@ Items.forEach(item => {
 })
 
 export const CarouselProcesadores = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const [numItems, setItems] = useState(7);
+
   const options = {
-    items: 7
+    items: numItems
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+      if (width < 590) {
+        setItems(3);
+      } else if (width < 900) {
+        setItems(4);
+      } else if (width < 1090) {
+        setItems(5);
+      } else if (width < 1240) {
+        setItems(6);
+      } else {
+        setItems(7);
+      }
+    }
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    }
+  })
 
   const carousel = useRef(null);
   const handlePrev = () => {
