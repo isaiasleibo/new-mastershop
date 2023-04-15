@@ -25,22 +25,20 @@ header #leftPart #left-options {
   display: flex;
   margin-left: 15px;
 }
-header #leftPart #left-options .headerItem {
+header #leftPart #left-options a {
+  color: white;
+  text-decoration: none;
   margin: auto 12px;
   height: fit-content;
   cursor: pointer;
   user-select: none;
 }
-header #leftPart #left-options .headerItem i {
+header #leftPart #left-options a .headerItem i {
   margin-left: 3px;
   font-size: 10px;
 }
-header #leftPart #left-options .headerItem p {
+header #leftPart #left-options a .headerItem p {
   font-size: 12px;
-}
-header #leftPart #left-options .headerItem p a {
-  color: white;
-  text-decoration: none;
 }
 header #rightPart {
   position: absolute;

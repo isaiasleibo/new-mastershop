@@ -1,26 +1,37 @@
 import React from 'react'
 import '../css/header.css';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
     return (
         <header>
             <div id="leftPart">
-                <div id="logo">
-                    <img src={require('../img/pageLogo.webp')} alt="MasterShop" />
-                </div>
+                <Link to="/">
+                    <div id="logo">
+                        <img src={require('../img/pageLogo.webp')} alt="MasterShop" />
+                    </div>
+                </Link>
                 <div id="left-options">
-                    <div className="headerItem">
-                        <p>Acerca de</p>
-                    </div>
-                    <div className="headerItem">
-                        <p>Productos</p>
-                    </div>
-                    <div className="headerItem">
-                        <p>Contacto</p>
-                    </div>
-                    <div className="headerItem">
-                        <p>Más <i className="fa-solid fa-chevron-down"></i></p>
-                    </div>
+                    <Link>
+                        <div className="headerItem">
+                            <p>Acerca de</p>
+                        </div>
+                    </Link>
+                    <Link to="/tienda">
+                        <div className="headerItem">
+                            <p>Productos</p>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className="headerItem">
+                            <p>Contacto</p>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className="headerItem">
+                            <p>Más <i className="fa-solid fa-chevron-down"></i></p>
+                        </div>
+                    </Link>
                 </div>
             </div>
 

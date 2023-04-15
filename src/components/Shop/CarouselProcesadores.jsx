@@ -30,32 +30,35 @@ export const CarouselProcesadores = () => {
 
 
   return (
-    <div id="carouselProcesadores">
-      <OwlCarousel id="carousel" {...options} ref={carousel}>
-        {
-          items.map(item => {
-            return (
-              <div className="item" key={`${item.tipo}_${item.id}`}>
-                <img src={require(`../../img/productsImages/${item.imagen}.webp`)} alt={`${item.titulo}`} />
-                <h2>{item.precio}</h2>
-                <h3>{item.titulo}</h3>
-                <button>Ver Item</button>
-              </div>
-            )
-          })
-        }
-      </OwlCarousel>
+    <div id="carouselProcesadoresContainer">
+      <h2>Los Mejores procesadores:</h2>
+      <div id="carouselProcesadores">
+        <OwlCarousel id="carousel" {...options} ref={carousel}>
+          {
+            items.map(item => {
+              return (
+                <div className="item" key={`${item.tipo}_${item.id}`}>
+                  <img src={require(`../../img/productsImages/${item.imagen}.webp`)} alt={`${item.titulo}`} />
+                  <h3>{item.precio}</h3>
+                  <h4>{item.titulo}</h4>
+                  <button>Ver Item</button>
+                </div>
+              )
+            })
+          }
+        </OwlCarousel>
 
-      <button onClick={() => handlePrev()} className='owl-prev'>
-        <div>
-          <p><i className='fa-solid fa-angle-left fa-2xl'></i></p>
-        </div>
-      </button>
-      <button onClick={() => handleNext()} className='owl-next'>
-        <div>
-          <i className='fa-solid fa-angle-right fa-2xl'></i>
-        </div>
-      </button>
+        <button onClick={() => handlePrev()} className='owl-prev'>
+          <div>
+            <p><i className='fa-solid fa-angle-left fa-2xl'></i></p>
+          </div>
+        </button>
+        <button onClick={() => handleNext()} className='owl-next'>
+          <div>
+            <i className='fa-solid fa-angle-right fa-2xl'></i>
+          </div>
+        </button>
+      </div>
     </div>
   )
 }

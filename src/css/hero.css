@@ -13,7 +13,6 @@
   margin: 0 40px;
 }
 #hero #hero-main h1 {
-  font-family: "Inter", sans-serif;
   color: #1C2C40;
   font-size: 60px;
   font-weight: 900;
@@ -23,7 +22,10 @@
 #hero #hero-main p {
   line-height: 150%;
 }
-#hero #hero-main button {
+#hero #hero-main a {
+  text-decoration: none;
+}
+#hero #hero-main a button {
   all: unset;
   width: 120px;
   height: 40px;
@@ -33,15 +35,11 @@
   margin-top: 20px;
   cursor: pointer;
 }
-#hero #hero-main button p {
+#hero #hero-main a button p {
   font-size: 14px;
   width: fit-content;
   margin: 0 auto;
   user-select: none;
-}
-#hero #hero-main button p a {
-  color: white;
-  text-decoration: none;
 }
 #hero #mainImg {
   width: fit-content;

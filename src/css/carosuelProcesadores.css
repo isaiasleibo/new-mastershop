@@ -1,16 +1,26 @@
-#carouselProcesadores {
+#carouselProcesadoresContainer {
+  width: fit-content;
+  margin: 20px auto;
+}
+#carouselProcesadoresContainer h2 {
+  color: #1C2C40;
+  font-weight: 900;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+#carouselProcesadoresContainer #carouselProcesadores {
   color: white;
   padding: 10px 0;
   width: 1140px;
-  margin: 20px auto;
   background: linear-gradient(#ccc, #fff);
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  position: relative;
 }
-#carouselProcesadores .owl-dots {
+#carouselProcesadoresContainer #carouselProcesadores .owl-dots {
   display: none;
 }
-#carouselProcesadores .item {
+#carouselProcesadoresContainer #carouselProcesadores .item {
   background-color: #252525;
   height: 250px;
   margin: 0 10px;
@@ -19,14 +29,14 @@
   text-align: center;
   border-radius: 12px;
 }
-#carouselProcesadores .item img {
+#carouselProcesadoresContainer #carouselProcesadores .item img {
   width: 100px;
   height: 100px;
   object-fit: contain;
   margin: 0 auto;
   margin-top: 10px;
 }
-#carouselProcesadores .item button {
+#carouselProcesadoresContainer #carouselProcesadores .item button {
   all: unset;
   background-color: #ffffff;
   color: #000000;
@@ -34,16 +44,51 @@
   height: 25px;
   font-size: 12px;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: bold;
   cursor: pointer;
   margin: 10px auto;
+  transition: all 200ms;
 }
-#carouselProcesadores .item h2 {
+#carouselProcesadoresContainer #carouselProcesadores .item button:hover {
+  scale: 1.05;
+}
+#carouselProcesadoresContainer #carouselProcesadores .item button:active {
+  scale: 1;
+}
+#carouselProcesadoresContainer #carouselProcesadores .item h3 {
   margin-top: 5px;
   font-size: 24px;
 }
-#carouselProcesadores .item h3 {
+#carouselProcesadoresContainer #carouselProcesadores .item h4 {
   margin: 0 10px;
   font-size: 16px;
   font-weight: 400;
+}
+#carouselProcesadoresContainer #carouselProcesadores .owl-prev, #carouselProcesadoresContainer #carouselProcesadores .owl-next {
+  all: unset;
+  background-color: #00a2ff;
+  font-size: 12px;
+  height: 30px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  transition: all 200ms;
+}
+#carouselProcesadoresContainer #carouselProcesadores .owl-prev:hover, #carouselProcesadoresContainer #carouselProcesadores .owl-next:hover {
+  scale: 1.05;
+}
+#carouselProcesadoresContainer #carouselProcesadores .owl-prev:active, #carouselProcesadoresContainer #carouselProcesadores .owl-next:active {
+  scale: 1;
+}
+#carouselProcesadoresContainer #carouselProcesadores .owl-next {
+  right: -30px;
+  left: auto;
 }

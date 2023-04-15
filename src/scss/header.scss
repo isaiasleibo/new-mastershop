@@ -27,23 +27,23 @@ header {
             display: flex;
             margin-left: 15px;
 
-            .headerItem {
+            a {
+                color: white;
+                text-decoration: none;
                 margin: auto 12px;
                 height: fit-content;
                 cursor: pointer;
                 user-select: none;
 
-                i {
-                    margin-left: 3px;
-                    font-size: 10px;
-                }
+                .headerItem {
 
-                p {
-                    font-size: 12px;
+                    i {
+                        margin-left: 3px;
+                        font-size: 10px;
+                    }
 
-                    a {
-                        color: white;
-                        text-decoration: none;
+                    p {
+                        font-size: 12px;
                     }
                 }
             }
@@ -73,6 +73,7 @@ header {
                     user-select: none;
                 }
             }
+
             //
 
             #login {

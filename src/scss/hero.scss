@@ -13,7 +13,6 @@
         margin: 0 40px;
 
         h1 {
-            font-family: 'Inter', sans-serif;
             color: #1C2C40;
             font-size: 60px;
             font-weight: 900;
@@ -25,25 +24,24 @@
             line-height: 150%;
         }
 
-        button {
-            all: unset;
-            width: 120px;
-            height: 40px;
-            background-color: #343434;
-            color: white;
-            border-radius: 6px;
-            margin-top: 20px;
-            cursor: pointer;
+        a {
+            text-decoration: none;
 
-            p {
-                font-size: 14px;
-                width: fit-content;
-                margin: 0 auto;
-                user-select: none;
-
-                a {
-                    color: white;
-                    text-decoration: none;
+            button {
+                all: unset;
+                width: 120px;
+                height: 40px;
+                background-color: #343434;
+                color: white;
+                border-radius: 6px;
+                margin-top: 20px;
+                cursor: pointer;
+    
+                p {
+                    font-size: 14px;
+                    width: fit-content;
+                    margin: 0 auto;
+                    user-select: none;
                 }
             }
         }
