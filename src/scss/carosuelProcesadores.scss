@@ -18,6 +18,10 @@
         border-radius: 4px;
         position: relative;
 
+        #carousel {
+            overflow: hidden;
+        }
+
         .owl-dots {
             display: none;
         }

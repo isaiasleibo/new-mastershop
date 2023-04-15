@@ -17,6 +17,9 @@
   border-radius: 4px;
   position: relative;
 }
+#carouselProcesadoresContainer #carouselProcesadores #carousel {
+  overflow: hidden;
+}
 #carouselProcesadoresContainer #carouselProcesadores .owl-dots {
   display: none;
 }
