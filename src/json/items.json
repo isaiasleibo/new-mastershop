@@ -1,0 +1,396 @@
+[
+    {
+        "id": 1,
+        "titulo": "Intel Celeron G5905",
+        "tipo": "intel",
+        "imagen": "INTEL_CELERON_G5905_9999-removebg-preview",
+        "precio": "$9.999",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 2",
+            "Frecuencia: 3,50 GHz",
+            "Caché: 4 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 58 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: UHD Intel 610"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Intel Pentium Gold G6405",
+        "tipo": "intel",
+        "imagen": "INTEL_PENTIUM_GOLD_G6405_15849-removebg-preview",
+        "precio": "$15.849",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 2",
+            "Frecuencia: 4,10 GHz",
+            "Caché: 4 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 58 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: UHD Intel 610"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Intel Core i3 10100F",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I3_10100F_17990-removebg-preview",
+        "precio": "$17.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 4",
+            "Frecuencia: 3,60 GHz",
+            "Caché: 6 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Intel Core i3 12100F",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I3_12100F_26990-removebg-preview",
+        "precio": "$26.990",
+        "extraInfo": [
+            "Litografía: Intel 7",
+            "Cantidad de núcleos: 4",
+            "Frecuencia: 3,30 GHz",
+            "Caché: 12 MB",
+            "Velocidad del bus: -",
+            "TDP: 58 W",
+            "Tamaño de memoria máximo: 128 GB DDR5",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Intel Core i5 7600K",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I5-7600K_35990-removebg-preview",
+        "precio": "$35.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 4",
+            "Frecuencia:  3,80 GHz",
+            "Caché: 6 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 91 W",
+            "Tamaño de memoria máximo: 64 GB DDR4",
+            "Gráficos: UHD Intel 630"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Intel Core i5 10600K",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I5_10600K_58990-removebg-preview",
+        "precio": "$58.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 6",
+            "Frecuencia:  4,10 GHz",
+            "Caché: 12 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 125 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: UHD Intel 630"
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Intel Core i5 11600K",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I5_11600K_66990-removebg-preview",
+        "precio": "$66.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 6",
+            "Frecuencia:  3,90 GHz",
+            "Caché: 12 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 125 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: UHD Intel 750"
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "Intel Core i7 10700F",
+        "imagen": "INTEL_CORE_I7_10700F_70990-removebg-preview",
+        "tipo": "intel",
+        "precio": "$70.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 8",
+            "Frecuencia:  2,90 GHz",
+            "Caché: 16 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Intel Core i7 11700KF",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I7_11700KF_83990-removebg-preview",
+        "precio": "$83.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 8",
+            "Frecuencia:  3,60 GHz",
+            "Caché: 16 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 125 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Intel Core i9 10900F",
+        "tipo": "intel",
+        "imagen": "INTEL_CORE_I9_10900F_99990-removebg-preview",
+        "precio": "$99.990",
+        "extraInfo": [
+            "Litografía: 14 nm",
+            "Cantidad de núcleos: 10",
+            "Frecuencia:  2,80 GHz",
+            "Caché: 20 MB",
+            "Velocidad del bus: 8 GT/s",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 1,
+        "titulo": "Notebook Apple MacBook Pro",
+        "tipo": "notebook",
+        "imagen": "NOTEBOOK_APPLE_MACBOOK_PRO-removebg-preview",
+        "precio": "$578.029",
+        "extraInfo": [
+            "Procesador: M1",
+            "Ram: 8GB DDR4",
+            "Almacenamiento: 256GB SSD",
+            "Pantalla: 13' 2560 x 1600",
+            "Gráficos: M1",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Notebook Asus X515EA-EJ711",
+        "tipo": "notebook",
+        "imagen": "Notebook_Asus_X515EA-EJ711",
+        "precio": "$119.990",
+        "extraInfo": [
+            "Procesador: Intel Core i3 1115g4",
+            "Ram: 8GB DDR4",
+            "Almacenamiento: 256GB SSD",
+            "Pantalla: 15.6' 1920 x 1080",
+            "Gráficos: UHD Intel for 11th Gen",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Notebook Bangho Max L4 I1 F",
+        "tipo": "notebook",
+        "imagen": "Notebook_Bangho_Max_L4_I1",
+        "precio": "$92.990",
+        "extraInfo": [
+            "Procesador: Intel Celeron 5205U",
+            "Ram: 4GB DDR4",
+            "Almacenamiento: 120GB SSD M.2 SATA",
+            "Pantalla: 14' 1366 x 768 60HZ",
+            "Gráficos: UHD Intel 610",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Notebook Gigabyte Aorus 15",
+        "tipo": "notebook",
+        "imagen": "NOTEBOOK_GIGABYTE_AORUS_15-removebg-preview",
+        "precio": "$584.990",
+        "extraInfo": [
+            "Procesador: Intel Core i7 12700H",
+            "Ram: 16GB DDR4",
+            "Almacenamiento: 256GB SSD",
+            "Pantalla: 15.6' 1920 x 1080",
+            "Gráficos: Nvidia RTX 3070Ti P 8GB GDDR6",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Notebook HP 245 G8",
+        "tipo": "notebook",
+        "imagen": "NOTEBOOK_HP_245_G8-removebg-preview",
+        "precio": "$179.990",
+        "extraInfo": [
+            "Procesador: Ryzen 5 5500U",
+            "Ram: 8GB DDR4",
+            "Almacenamiento: 1TB SSD Sata 2.5",
+            "Pantalla: 15.6' 1366 x 768",
+            "Gráficos: Radeon Graphics",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Notebook Lenovo V15 Pentium",
+        "tipo": "notebook",
+        "imagen": "Notebook_Lenovo_V15_Pentium",
+        "precio": "$136.989",
+        "extraInfo": [
+            "Procesador: Intel pentium Gold 5405U",
+            "Ram: 4GB DDR4",
+            "Almacenamiento: 1TB HDD",
+            "Pantalla: 15.6' 1366 x 768 60Hz",
+            "Gráficos: UHD Intel 610",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Notebook XPG Xenia 15",
+        "tipo": "notebook",
+        "imagen": "Notebook_XPG_Xenia_15",
+        "precio": "$499.990",
+        "extraInfo": [
+            "Procesador: Intel core i7 11800H",
+            "Ram: 32GB DDR4",
+            "Almacenamiento: 1TB SSD",
+            "Pantalla: 15.6' 2560 x 1440 60Hz",
+            "Gráficos: Nvidia RTX 3070 8GB GDDR6",
+            "Cámara: Si"
+        ]
+    },
+    {
+        "id": 1,
+        "titulo": "Ryzen 3 4100",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_3_4100",
+        "precio": "$23.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 4",
+            "Frecuencia:  3,8 GHz",
+            "CachéL1: 256 KB",
+            "CachéL2: 2 MB",
+            "CachéL3: 4 MB",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Ryzen 5 4500",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_5_4500",
+        "precio": "$28.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 6",
+            "Frecuencia:  3,6 GHz",
+            "CachéL1: 384 KB",
+            "CachéL2: 3 MB",
+            "CachéL3: 8 MB",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Ryzen 5 5600X",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_5_5600x",
+        "precio": "$50.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 6",
+            "Frecuencia:  3,7 GHz",
+            "CachéL1: -",
+            "CachéL2: 3 MB",
+            "CachéL3: 32 MB",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Ryzen 5 7600X",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_5_7600X",
+        "precio": "$78.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 6",
+            "Frecuencia:  4,7 GHz",
+            "CachéL1: 384 KB",
+            "CachéL2: 6 MB",
+            "CachéL3: 105 MB",
+            "TDP: 65 W",
+            "Tamaño de memoria máximo: 128 GB DDR5",
+            "Gráficos: AMD Radeon Graphics"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Ryzen 7 5800X",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_7_5800X",
+        "precio": "$99.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 8",
+            "Frecuencia:  3,8 GHz",
+            "CachéL1: -",
+            "CachéL2: 4 MB",
+            "CachéL3: 32 MB",
+            "TDP: 105 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Ryzen 9 5900X",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_9_5900X",
+        "precio": "$105.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 12",
+            "Frecuencia:  3,7 GHz",
+            "CachéL1: -",
+            "CachéL2: 6 MB",
+            "CachéL3: 64 MB",
+            "TDP: 105 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Ryzen 9 7950X",
+        "tipo": "ryzen",
+        "imagen": "Ryzen_9_7950X",
+        "precio": "$189.990",
+        "extraInfo": [
+            "Cantidad de núcleos: 12",
+            "Frecuencia:  3,7 GHz",
+            "CachéL1: -",
+            "CachéL2: 6 MB",
+            "CachéL3: 64 MB",
+            "TDP: 105 W",
+            "Tamaño de memoria máximo: 128 GB DDR4",
+            "Gráficos: Ninguno"
+        ]
+    }
+]

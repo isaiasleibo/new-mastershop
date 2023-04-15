@@ -1,0 +1,11 @@
+#decorativeCarousel .owl-dots {
+  display: none;
+}
+#decorativeCarousel img {
+  object-fit: cover;
+  image-orientation: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}

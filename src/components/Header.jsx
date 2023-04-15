@@ -19,7 +19,7 @@ export const Header = () => {
                         <p>Contacto</p>
                     </div>
                     <div className="headerItem">
-                        <p>Más <i class="fa-solid fa-chevron-down"></i></p>
+                        <p>Más <i className="fa-solid fa-chevron-down"></i></p>
                     </div>
                 </div>
             </div>
