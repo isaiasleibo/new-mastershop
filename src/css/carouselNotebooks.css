@@ -24,7 +24,7 @@
 }
 #carouselNotebooksContainer #carosuelNotebooks .item {
   background-color: #252525;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 0 10px;
   display: grid;
   grid-template-areas: "1" "2" "3" "4";
