@@ -11,7 +11,7 @@ export const DecorativeCarousel = () => {
         loop: true,
         mouseDrag: false,
         touchDrag: false,
-        autoplayTimeout: 2000
+        autoplayTimeout: 3000
     }
 
     return (
