@@ -10,3 +10,8 @@
   height: 300px;
   user-select: none;
 }
+@media screen and (max-width: 800px) {
+  #decorativeCarousel img {
+    height: 200px !important;
+  }
+}
