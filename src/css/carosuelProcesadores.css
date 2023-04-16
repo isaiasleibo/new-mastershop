@@ -39,6 +39,9 @@
   margin: 0 auto;
   margin-top: 10px;
 }
+#carouselProcesadoresContainer #carouselProcesadores .item a:-webkit-any-link {
+  text-decoration: none;
+}
 #carouselProcesadoresContainer #carouselProcesadores .item button {
   all: unset;
   background-color: #ffffff;

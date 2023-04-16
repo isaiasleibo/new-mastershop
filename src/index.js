@@ -5,13 +5,15 @@ import './index.css';
 // Pages
 import { Home } from './pages/Home';
 import { Shop } from './pages/Shop';
+import { Product } from './pages/Product';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Pages>
-      <Page exact path="/" element={<Home />} />
-      <Page exeact path="/tienda" element={<Shop />} />
+      <Page path="/" element={<Home />} />
+      <Page path="/tienda" element={<Shop />} />
+      <Page path="/tienda/:type/:id" element={<Product />} />
     </Pages>
   </Router>
 );
