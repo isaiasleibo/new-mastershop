@@ -19,7 +19,7 @@ export const Product = () => {
 
       <main id="productContainer">
         <div id="item">
-          <img src={require(`../img/productsImages/${productFound.imagen}.webp`)}></img>
+          <img src={require(`../img/productsImages/${productFound.imagen}.webp`)} alt={productFound.titulo}></img>
           <div id="info">
             <h1>{productFound.titulo}</h1>
             <ul id="extraInfo">
