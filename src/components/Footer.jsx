@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/footer.css';
-import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   const date = new Date();
@@ -9,9 +8,9 @@ export const Footer = () => {
   return (
     <footer>
       <p>&copy; MasterShop {year}</p>
-      <Link to="/">
+      <a href="/">
         <img src={require('../img/pageLogo.webp')} alt="MasterShop" />
-      </Link>
+      </a>
       <div id="socialMedia">
         <div className="mediaContainer">
           <p><i className="fa-brands fa-instagram"></i></p>

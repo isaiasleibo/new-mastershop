@@ -126,7 +126,8 @@
     }
 
     @media screen and (max-width: 900px) {
-        width: 100vw;
+        margin: 20px 5px;
+        width: calc(100vw - 10px);
 
         .owl-prev, .owl-next {
             display: none;
@@ -134,9 +135,6 @@
     }
 
     @media screen and (max-width: 445px) {
-        margin: 20px 5px;
-        width: calc(100vw - 10px);
-
         .item {
             margin: 0 5px !important;
             height: 230px !important;

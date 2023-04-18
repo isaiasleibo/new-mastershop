@@ -111,17 +111,14 @@
 }
 @media screen and (max-width: 900px) {
   #carouselProcesadoresContainer {
-    width: 100vw;
+    margin: 20px 5px;
+    width: calc(100vw - 10px);
   }
   #carouselProcesadoresContainer .owl-prev, #carouselProcesadoresContainer #carouselProcesadores .owl-next, #carouselProcesadoresContainer .owl-next {
     display: none;
   }
 }
 @media screen and (max-width: 445px) {
-  #carouselProcesadoresContainer {
-    margin: 20px 5px;
-    width: calc(100vw - 10px);
-  }
   #carouselProcesadoresContainer .item {
     margin: 0 5px !important;
     height: 230px !important;

@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { Link } from 'react-router-dom';
 import Items from '../../json/items.json';
 import '../../css/carosuelProcesadores.css';
 
@@ -68,9 +67,9 @@ export const CarouselProcesadores = () => {
                   <img src={require(`../../img/productsImages/${item.imagen}.webp`)} alt={`${item.titulo}`} />
                   <h3>{item.precio}</h3>
                   <h4>{item.titulo}</h4>
-                  <Link to={`/tienda/${item.tipo}/_${item.id}`} style={{textDecoration:'none'}}>
+                  <a href={`/tienda/${item.tipo}/_${item.id}`} style={{textDecoration:'none'}}>
                     <button>Ver Item</button>
-                  </Link>
+                  </a>
                 </div>
               )
             })

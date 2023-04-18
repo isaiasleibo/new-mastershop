@@ -17,7 +17,7 @@
         box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
         border-radius: 4px;
 
-        #carosuel {
+        #carousel {
             overflow: hidden;
         }
 
@@ -117,14 +117,10 @@
     }
 
     @media screen and (max-width: 900px) {
-        width: 100vw !important;
+        width: calc(100vw - 10px) !important;
 
         .owl-prev, .owl-next {
             display: none;
         }
-    }
-
-    @media screen and (max-width: 445px) {
-        width: calc(100vw - 10px) !important;
     }
 }

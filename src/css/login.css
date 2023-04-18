@@ -1,0 +1,69 @@
+#formContainer {
+  width: fit-content;
+  margin: 20px auto;
+  height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formContainer #form {
+  background: linear-gradient(#ccc, #fff);
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  width: 240px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  transform: scale(1.15);
+}
+#formContainer #form #logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#formContainer #form #logo img {
+  height: 40px;
+}
+#formContainer #form #logo p {
+  width: fit-content;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+#formContainer #form input {
+  all: unset;
+  display: block;
+  width: calc(100% - 5px);
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 5px 0;
+  padding-left: 5px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+#formContainer #form input::placeholder {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+#formContainer #form button {
+  all: unset;
+  font-size: 12px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  width: 85px;
+  height: 24px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+#formContainer #form button:hover {
+  scale: 1.03;
+}
+#formContainer #form button:active {
+  scale: 1;
+}
