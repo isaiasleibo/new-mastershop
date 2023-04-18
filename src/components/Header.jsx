@@ -11,7 +11,7 @@ export const Header = () => {
                     </div>
                 </a>
                 <div id="left-options">
-                    <a>
+                    <a href="#">
                         <div className="headerItem">
                             <p>Acerca de</p>
                         </div>
@@ -21,12 +21,12 @@ export const Header = () => {
                             <p>Productos</p>
                         </div>
                     </a>
-                    <a>
+                    <a href="#">
                         <div className="headerItem">
                             <p>Contacto</p>
                         </div>
                     </a>
-                    <a>
+                    <a href="#">
                         <div className="headerItem">
                             <p>Más <i className="fa-solid fa-chevron-down"></i></p>
                         </div>
